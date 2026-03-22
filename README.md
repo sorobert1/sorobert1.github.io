@@ -8,7 +8,6 @@
             <nav>
                 <img src="" class="logo">
                 <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Experience</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
