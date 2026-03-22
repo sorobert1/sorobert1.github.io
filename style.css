@@ -1,0 +1,108 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for consistent spacing */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Navigation links */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0077cc;
+}
+
+/* Header section */
+#header {
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+/* About section layout */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Left column (image) */
+.about-col-1 img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* Right column (text) */
+.about-col-2 {
+    flex: 1;
+}
+
+/* Section titles */
+.sub-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Paragraph spacing */
+.about-col-2 p {
+    margin-bottom: 15px;
+}
+
+/* LinkedIn icon */
+.img-icon {
+    width: 40px;
+    margin-top: 10px;
+    transition: transform 0.2s;
+}
+
+.img-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Responsive design (mobile) */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
