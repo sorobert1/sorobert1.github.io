@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
-
+<link rel="stylesheet" href="config.yml">
 <body>
     <div id="header">
         <div class="container">
