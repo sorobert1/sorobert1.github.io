@@ -1,21 +1,38 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
-<head>
-  <title>Scarlett Roberts | Engineering Portfolio</title>
-</head>
 
 <body>
-  <h1>Scarlett Roberts</h1>
-  <p>Engineering Student | Data Analysis | Computational Modeling</p>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Experience</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+  <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3>I'm Scarlett, a a civil engineering student at Michigan State University focusing on water resources! I also have my B.A. in political science from the University of California, Irvine. My academic experience combines technical problem solving with an understanding of how policy and governance influence the planning and management of water systems.
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Cubic Spline Interpolation vs Lagrange Interpolation</li>
-    <li>RC Circuit Capacitor Discharge Simulation</li>
-    <li>Pressure Vessel Safety Factor Analysis</li>
-  </ul>
+Through my engineering coursework, I have developed skills in computational modeling, numerical methods, and data analysis to study system behavior and performance. At the same time, my background in political science has given me insight into regulatory frameworks, public policy, and the decision-making processes that shape water resource management.
 
-  <h2>Contact</h2>
-  <p>Email: youremail@email.com</p>
-</body>
-</html>
+I am particularly interested in how engineering solutions can be effectively implemented within real-world constraints, including environmental regulations, public interests, and infrastructure policy. I am currently seeking opportunities where I can apply both my technical and interdisciplinary background to challenges in water resources and environmental engineering.</h3>
+                        <br/><br/>
+                        <ul class="isolated-icons">
+                            <a href="www.linkedin.com/in/scarlett-roberts1" target="_blank">
+                                <img src="images/linkedin.png" class="img-icon">
+                            </a>
+                        </ul> 
